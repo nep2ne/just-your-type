@@ -3,3 +3,19 @@ html {
   font-family: 'Pompiere', sans-serif;
   background-color: #142740;
 }
+
+main {
+  border: 4px solid #fff;
+}
+.white-text {
+  color: #fff;
+}
+
+.archivo {
+  font-family: "Archivo Black", sans-serif;
+  color: #a3a692;
+}
+
+.fade {
+  transition: all 1s ease;
+}
