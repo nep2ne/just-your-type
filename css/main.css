@@ -5,8 +5,9 @@ html {
 }
 
 main {
-  max-width: 600rem;
+  max-width: 20rem;
   margin: 0 auto;
+
 }
 
 article {
@@ -22,6 +23,16 @@ article {
   color: #a3a692;
 }
 
-.fade {
-  transition: opacity 5s ease-in;
+.opac {
+  transition: all 1000ms ease-in;
+  opacity: 0.1;
+}
+
+@media only screen and (min-width: 60em) {
+
+.opac:hover {
+
+  opacity: .8;
+}
+
 }
